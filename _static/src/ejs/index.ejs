@@ -2,13 +2,16 @@
 <!DOCTYPE html>
 <html lang="ja">
   <%- include('./common/_head', {pageId:pageId }) %>
-  <body class="home">
-    <div id="top" class="wrap" ontouchstart="">
-      <%- include('./common/_header', {pageId:pageId }) %>
-      <!-- main -->
-      <main class="l-main">main</main>
-      <!-- /main -->
-      <%- include('./common/_footer', {pageId:pageId }) %>
+  <body data-barba="wrapper">
+    <%- include('./common/_header', {pageId:pageId }) %>
+    <div id="common-wrapper" class="common-wrapper">
+        <div class="container" data-barba="container" data-barba-namespace="home">
+          barba
+        </div>
     </div>
+    <%- include('./common/_footer', {pageId:pageId }) %>
+      <%-
+    include('./common/_script', {pageId:pageId }) %>
   </body>
+
 </html>
