@@ -1,0 +1,32 @@
+@use "./../foundation/global" as *;
+
+.container {
+    // padding-top: 5rem;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.container.--001 {
+    background-color: rgb(185, 218, 237);
+}
+.container.--002 {
+    background-color: rgb(247, 231, 234);
+}
+.container.--003 {
+    background-color: rgb(186, 234, 211);
+}
+.container.--004 {
+    background-color: rgb(224, 238, 182);
+}
+.container.--005 {
+    background-color: rgb(238, 188, 182);
+}
+.container.--006 {
+    background-color: rgb(167, 156, 240);
+}
+
+.container h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
