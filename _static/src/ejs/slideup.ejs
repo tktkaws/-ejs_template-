@@ -1,17 +1,16 @@
-<% let pageId = '005'; %> <% let path = jsonData.pages[pageId].path %>
+<% let pageId = 'slideup'; %> <% let path = jsonData.pages[pageId].path %>
 
 <!DOCTYPE html>
 <html lang="ja">
-  <%- include('../common/_head', {pageId:pageId }) %>
+  <%- include('./common/_head', {pageId:pageId }) %>
   <body data-barba="wrapper">
-    <%- include('../common/_header', {pageId:pageId }) %>
+    <%- include('./common/_header', {pageId:pageId }) %>
     <div id="common-wrapper" class="common-wrapper">
         <div class="container --005" data-barba="container" data-barba-namespace="005">
           <h1>SlideUp</h1>
         </div>
     </div>
       <%-
-    include('../common/_script', {pageId:pageId }) %>
+    include('./common/_script', {pageId:pageId }) %>
   </body>
-
 </html>

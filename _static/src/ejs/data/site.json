@@ -1,22 +1,57 @@
 {
   "siteInfo": {
-    "name": "テンプレート",
+    "name": "barba.js - DEMO",
     "siteUrl": "./"
   },
   "pages": {
     "home": {
-      "name": "トップページ",
-      "description": "サイトの説明",
+      "name": "Top",
+      "description": "トップページ",
       "type": "website",
       "slug": "../",
       "path": "./"
     },
-    "about": {
-      "name": "aboutページ",
-      "description": "aboutページの説明",
-      "type": "article",
-      "slug": "about/about.html",
-      "path": "../"
+    "fade": {
+      "name": "Fade",
+      "description": "Fade",
+      "type": "website",
+      "slug": "../",
+      "path": "./"
+    },
+    "slide": {
+      "name": "Slide",
+      "description": "Slide",
+      "type": "website",
+      "slug": "../",
+      "path": "./"
+    },
+    "flipx": {
+      "name": "FlipX",
+      "description": "FlipX",
+      "type": "website",
+      "slug": "../",
+      "path": "./"
+    },
+    "flipy": {
+      "name": "FlipY",
+      "description": "FlipY",
+      "type": "website",
+      "slug": "../",
+      "path": "./"
+    },
+    "slideup": {
+      "name": "SlideUp",
+      "description": "SlideUp",
+      "type": "website",
+      "slug": "../",
+      "path": "./"
+    },
+    "zoom": {
+      "name": "Zoom",
+      "description": "zoom",
+      "type": "website",
+      "slug": "../",
+      "path": "./"
     }
   }
 }
